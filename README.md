@@ -1,26 +1,37 @@
-# B10_Joyston_Lewis_Assignment_04_DevOps  
-**Travel Memory MERN Stack Application Deployment**
+# 🌐 B10_Vaibhav_Pawar_Assignment_04
+*✈️ Travel Memory — End-to-End MERN Stack Deployment on AWS*
 
+---
+## 🧭 Overview ##
+Welcome to the deployment guide for Travel Memory, a full-stack MERN application designed to capture and share travel experiences. This repository is a forked version of the original TravelMemory project, enhanced with structured DevOps practices and cloud deployment workflows.
 ---
 
 ## 📂 Repository Structure
 
 This repository is already **forked** from the original source (https://github.com/UnpredictablePrashant/TravelMemory) into the main branch and contains the following additional branches:
 
-- `Frontend` — React JS Frontend code
-- `Backend` — Node.js/Express Backend code
-- `Deploy-Automation-Scripts` — Automation scripts for Deployment via AWS
-  - `MERN-BACKEND.sh`
-  - `MERN-FRONTEND.sh`
+- `Frontend` — React.js code for a responsive and interactive user interface
+- `Backend` — Node.js + Express server logic and MongoDB connectivity
 
-### 🚀 Objective
-Guide Users to **Fork this repository** and follow step-by-step instructions to deploy the Travel Memory MERN Stack Application on AWS EC2 instances, by configuring Load Balancer, Auto Scaling Group, along with use of Cloudflare for Domain Management.
+### 🚀 Project Objective
+The primary aim of this assignment is to deliver a hands-on, end-to-end DevOps deployment of a modern web application using real-world tools and cloud infrastructure. You'll gain practical experience in deploying a scalable and production-ready MERN stack application on AWS, while mastering essential DevOps concepts.
+
+By following this guide, you will:
+- 🔁 Fork and clone the Travel Memory repository for personalized deployment.
+- 🖥️ Set up AWS EC2 instances to host both frontend and backend services.
+- ⚖️ Configure an Application Load Balancer (ALB) for intelligent traffic routing and high availability.
+- 📈 Enable Auto Scaling Groups (ASG) to ensure fault tolerance and seamless horizontal scaling.
+- 🧩 Deploy Nginx as a reverse proxy to efficiently route requests to your React frontend and Node.js backend.
+- 🌐 Integrate Cloudflare DNS for enhanced domain management, performance, and security.
+- 📋 Document the entire deployment pipeline, from provisioning to scaling, including useful tips and troubleshooting steps.
 
 ---
 
 ## 🏗️ Architecture Diagram
 
-![Architecture](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/Architecture.jpg)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9bf15ee4-2393-45ed-bb90-bda86da28f6f" width="70%" />
+</p>
 
 ---
 
@@ -39,10 +50,14 @@ Guide Users to **Fork this repository** and follow step-by-step instructions to 
 
 #### 📸 Output Screenshots
 
-![SG_01](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/SG_01.png)
-![SG_02](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/SG_02.png)
-![SG_03](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/SG_03.png)
-![SG_04](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/SG_04.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/df2efa5b-5375-41a3-aac7-26f1b03fcd4c" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5db3bd74-56d1-4307-9949-c0de7a6ba851" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b926593d-c503-4cfc-80e1-5941e3fc2790" width="45%" />
+</p>
 
 ---
 
@@ -83,11 +98,20 @@ Guide Users to **Fork this repository** and follow step-by-step instructions to 
 
 #### 📸 Output Screenshots
 
-![LT_01](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/LT_01.png)
-![LT_02](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/LT_02.png)
-![LT_03](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/LT_03.png)
-![LT_04](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/LT_04.png)
-![LT_05](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/LT_05.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cac53227-7f01-4a6e-96d4-ba3064ab307f" width="45%" />
+  <img src="https://github.com/user-attachments/assets/c513a8d5-678e-4baa-826a-22d539f47d68" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/057fc65c-3aab-4794-b89a-36c99503b015" width="45%" />
+  <img src="https://github.com/user-attachments/assets/c323a506-fb16-4979-a572-489e74b4bd11" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/231864fd-2935-4ef7-9254-2a66dc8c29ba" width="45%" />
+</p>
+
 
 ---
 
@@ -102,8 +126,10 @@ Guide Users to **Fork this repository** and follow step-by-step instructions to 
 
 #### 📸 Output Screenshots
 
-![TG_01](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/TG_01.png)
-![TG_02](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/TG_02.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a471ef9a-12ac-495b-b130-6cc5da16f6da" width="45%" />
+  <img src="https://github.com/user-attachments/assets/b3c8d185-2fee-408c-88a5-552d7c1e952d" width="45%" />
+</p>
 
 ---
 
@@ -120,9 +146,16 @@ Guide Users to **Fork this repository** and follow step-by-step instructions to 
 
 #### 📸 Output Screenshots
 
-![LB_01](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/LB_01.png)
-![LB_02](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/LB_02.png)
-![LB_03](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/LB_03.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5a3e0d3c-3184-49ea-acfb-3d1c54f8b33c" width="48%" />
+  <img src="https://github.com/user-attachments/assets/c90a106d-a21d-4ba7-93ec-a8a0d4710d9f" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2bff2141-2571-4186-b7f1-4dd0384798a2" width="48%" />
+</p>
+
+
 
 ---
 
@@ -146,25 +179,35 @@ Guide Users to **Fork this repository** and follow step-by-step instructions to 
 
 #### 📸 Output Screenshots 
 
-![ASG_01](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_01.png)
-![ASG_02](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_02.png)
-![ASG_03](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_03.png)
-![ASG_04](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_04.png)
-![ASG_05](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_05.png)
-![ASG_06](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_06.png)
-![ASG_07](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_07.png)
-![ASG_08](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_08.png)
-![ASG_09](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_09.png)
-![ASG_10](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_10.png)
-![ASG_11](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_11.png)
-![ASG_12](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_12.png)
-![ASG_13](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_13.png)
-![ASG_14](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_14.png)
-![ASG_15](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_15.png)
-![ASG_16](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_16.png)
-![ASG_17](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_17.png)
-![ASG_18](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_18.png)
-![ASG_19](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/ASG_19.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/001d2d67-e300-49ab-8174-d600617eb068" width="48%" />
+  <img src="https://github.com/user-attachments/assets/ea0f8c06-90a4-43e0-a2fc-f637924d3f7b" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f2d2e057-cc00-4ab9-b5bb-c05127209026" width="48%" />
+  <img src="https://github.com/user-attachments/assets/3c863023-ae08-4367-b32e-ff67aadfd8d2" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8f61dbda-43e9-4809-b956-2465a5b46677" width="48%" />
+  <img src="https://github.com/user-attachments/assets/8b63a0c2-29f2-402c-9731-f2df070e0bd1" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fed7885b-fbf9-4f52-966f-1ab5d986663e" width="48%" />
+  <img src="https://github.com/user-attachments/assets/568131e8-5f14-494e-9563-3485c46561bd" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ba6add95-d32d-4aa7-b00f-9fd437dfeca1" width="48%" />
+  <img src="https://github.com/user-attachments/assets/3d401a05-1f53-430e-a930-81ae4ce16ffa" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f9c36bc2-0abd-4891-b65a-202d5d327857" width="48%" />
+  <img src="https://github.com/user
+
 
 ---
 
@@ -184,8 +227,13 @@ Guide Users to **Fork this repository** and follow step-by-step instructions to 
   
 #### 📸 Output Screenshots 
 
-![BCC_01_01](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/BCC_01_01.png)
-![BCC_02](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/BCC_02.png)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9aac9230-a23d-46ff-8fbf-721764d618ff" width="48%" />
+  <img src="https://github.com/user-attachments/assets/5f71b1b2-55e8-43ea-9c86-349e9a1c0d4c" width="48%" />
+</p>
+
+
 
 ---
 
@@ -228,11 +276,16 @@ Guide Users to **Fork this repository** and follow step-by-step instructions to 
 
 #### 📸 Output Screenshots 
 
-![FEC2_01](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FEC2_01.png)
-![FEC2_02](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FEC2_02.png)
-![FEC2_03](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FEC2_03.png)
-![FEC2_04](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FEC2_04.png)
-![FEC2_05](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FEC2_05.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f0006406-a585-4665-bf13-8e3ebc59c659" width="45%" />
+  <img src="https://github.com/user-attachments/assets/c5906a50-45a5-4083-9129-3927639e8520" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/468c0c35-6c75-4a73-9dae-6f7dc77381a5" width="45%" />
+  <img src="https://github.com/user-attachments/assets/a0d678cc-9252-473e-bcf4-f14cf135d27f" width="45%" />
+</p>
+
 
 ---
 
@@ -252,11 +305,14 @@ Guide Users to **Fork this repository** and follow step-by-step instructions to 
 
 #### 📸 Output Screenshots 
 
-![FCC_01_01](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FCC_01_01.png)
-![FCC_02](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FCC_02.png)
-![FCC_03](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FCC_03.png)
-![FCC_04](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FCC_04.png)
-![FCC_05](https://github.com/JOYSTON-LEWIS/My-Media-Repository/blob/main/Assignment_04_DevOps_Outputs_Images/FCC_05.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d76673eb-d6ec-4c67-9252-f47fe24e33d5" width="45%" />
+  <img src="https://github.com/user-attachments/assets/faadff31-5838-421c-83ae-d63957bab95a" width="45%" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f873107a-4200-40bc-a8b8-9fef14339424" width="45%" />
+</p>
+
 
 ---
 
@@ -296,14 +352,17 @@ Request Body:
 ```
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
 
-## 🤝 Contributing
-Feel free to fork and improve the scripts! ⭐ If you find this project useful, please consider starring the repo—it really helps and supports my work! 😊
+## 🤝 Contributions Welcome
+Got ideas to improve this project? Found a bug? Feel free to fork the repository, make your changes, and open a pull request. Contributions of all kinds are welcome!
+If this project helped you, consider giving it a ⭐ — it really motivates and supports continued development. 🙌
 
-## 📧 Contact
-For any queries, reach out via GitHub Issues.
+## 📬 Contact & Support
+For issues, feature requests, or general questions, please open an issue on GitHub.
+Let’s build better software together!
 
-## Cheers! 🥳 Happy Deploying to You! 🚀
+## 🚀 Happy Deploying!
+Wishing you smooth deployments and zero downtime. Keep building amazing things! 💻✨
 
 ---
